@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Munazza Begam</h1>
+            <p class="subtitle">Front-End-Developer | Web Associate | MTTS Chair</p>
+        </div>
+        <img src="image.jpeg" alt="Profile Image">
+    </header>
+    <div class="content">
+        <p>Welcome to my profile. I'm a Front-End Developer and a Web Associate, dedicated to helping young developers elevate their skills through training in software development technologies.</p>
+    </div>
+
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="text" id="age" placeholder="Enter your age" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Select a Course:</label>
+                <select id="course" required>
+                    <option value="" disabled selected>Select a Course</option>
+                    <option value="full-stack">Full Stack Development</option>
+                    <option value="front-end">Front End Development</option>
+                    <option value="front-end">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload your Resume:</label>
+                <input class="form-control" type="file" id="resume">
+            </div>
+            <div class="reset">
+                <input class="btn btn-primary" type="reset" value="Reset" id="reset">
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

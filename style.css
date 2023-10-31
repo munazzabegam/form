@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(135deg, #007bff, #00d6a0);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #fff;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-container h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select, input[type="file"] {
+    width: 550px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+#reset {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #007bff, #00d6a0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s;
+    margin: 30px 0;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #0056b3, #00c191);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group input[type="text"]:hover,
+.form-group select:hover,
+.form-group input[type="file"]:hover {
+    background-color: #f8f8f8;
+}
